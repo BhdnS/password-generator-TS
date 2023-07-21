@@ -1,0 +1,31 @@
+.header {
+
+		&_title {
+			text-align: center;
+		}
+}
+
+.theme {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.main {
+
+		&_box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		&_btn {
+			cursor: pointer;
+		}
+
+		&_password-result {
+			text-align: center;
+		}
+}
