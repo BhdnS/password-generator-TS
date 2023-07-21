@@ -4,6 +4,3 @@ const themeData = new Theme();
 
 themeData.clickTheme();
 themeData.loadLocalStorage();
-
-console.log(themeData);
-

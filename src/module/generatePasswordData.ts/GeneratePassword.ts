@@ -16,7 +16,7 @@ export class GeneratePassword {
 		this.value = 4;
 	}
 
-	btnClick(): void {
+	public btnClick(): void {
 		this.btn?.addEventListener('click', (e) => {
 			e.preventDefault();	
 			this.value = Number(this.input?.value);
@@ -24,7 +24,7 @@ export class GeneratePassword {
 		})
 	}
 
-	updateValue(): void {
+	public updateValue(): void {
 		let value: number | null = this.input ? Number(this.input.value) : null;
 		if (this.input) {
 			this.input.addEventListener('change', () => {

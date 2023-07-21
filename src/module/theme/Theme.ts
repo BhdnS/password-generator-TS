@@ -1,11 +1,10 @@
 import { TTheme, sunSvg, moonSvg } from './TTheme'
 
-
 export class Theme {
 	private body: TTheme['body'];
 	private theme: TTheme['theme'];
-	sun: string;
-	moon: string;
+	private	sun: string;
+	private moon: string;
 
 	constructor() {
 		this.body = document.querySelector('body');
